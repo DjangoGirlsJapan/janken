@@ -23,8 +23,8 @@ try:
     結果はjudgeという変数を作成して上記のdraw win loseのいずれかを
     変数にいれてください。"""
 
-    print(u"あなた選んだのは %s"%user_choice)
-    print(u"コンピュータが選んだのは %s"%pc)
-    print(u"結果は%s"%judge)
+    print(u"あなた選んだのは " + user_choice)
+    print(u"コンピュータが選んだのは " + pc)
+    print(u"結果は " + judge)
 except:
     print(u"1か２か３を入力してください。")
