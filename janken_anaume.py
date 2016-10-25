@@ -9,13 +9,13 @@ dic = {}
 
 print(u"じゃーんけーん")
 print(u"1=グー　2=チョキ　3=パー　を入力")
+choice_list = ['1', '2', '3']
 user = input('>>>  ')
 
-try:
+if user in choice:
     """問2：userが入力した数字からdicを使ってグーかチョキかパーの文字を取得してください"""
     user_choice = ''
 
-    choice_list = ['1', '2', '3']
     """問3：import したrandomを使って、PCに数字をチョイスさせて、
     且つグーかチョキかパーの文字列を取得してください"""
     pc = ''
@@ -31,5 +31,5 @@ try:
     print(u"あなた選んだのは " + user_choice)
     print(u"コンピュータが選んだのは " + pc)
     print(u"結果は " + judge)
-except:
+else:
     print(u"1か２か３を入力してください。")
