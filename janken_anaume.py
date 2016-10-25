@@ -18,7 +18,7 @@ try:
     choice_list = ['1', '2', '3']
     """問3：import したrandomを使って、PCに数字をチョイスさせて、
     且つグーかチョキかパーの文字列を取得してください"""
-    pc = 0
+    pc = ''
 
     draw = 'DRAW'
     win = 'You Win!!'
