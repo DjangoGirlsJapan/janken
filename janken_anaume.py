@@ -12,7 +12,7 @@ print(u"1=グー　2=チョキ　3=パー　を入力")
 choice_list = ['1', '2', '3']
 user = input('>>>  ')
 
-if user in choice:
+if user in choice_list:
     """問2：userが入力した数字からdicを使ってグーかチョキかパーの文字を取得してください"""
     user_choice = ''
 
